@@ -4,14 +4,14 @@ var imgGato1,imgGatoMovendo,imgGatoFeliz,gato;
 
 function preload() {
     //load the images here
-    imgFundo = loadImage("images/garden.png");
-    imgGato1 = loadImage("images/cat1.png");
-    imgGatoMovendo = loadAnimation("images/cat2.png","images/cat3.png");
-    imgGatoFeliz = loadImage("images/cat4.png")
-    imgRato1 = loadImage("images/mouse1.png");
-    imgRato2 = loadAnimation("images/mouse2.png","images/mouse3.png");
-    imgRatoSherlockHolmes = loadAnimation("images/mouse4.png")
-    imgFundo = loadImage("images/garden.png");
+    imgFundo = loadImage("garden.png");
+    imgGato1 = loadImage("cat1.png");
+    imgGatoMovendo = loadAnimation("cat2.png","cat3.png");
+    imgGatoFeliz = loadImage("cat4.png")
+    imgRato1 = loadImage("mouse1.png");
+    imgRato2 = loadAnimation("mouse2.png","mouse3.png");
+    imgRatoSherlockHolmes = loadAnimation("mouse4.png")
+    imgFundo = loadImage("garden.png");
    
 
 }
